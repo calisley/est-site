@@ -1,0 +1,59 @@
+body{
+	background-color: rgb(38,47,52);
+}
+
+.content{
+	margin-top: 50px;
+}
+.calling_img img{
+	/*how do you not remember how to center a div*/
+	position: absolute;
+	z-index: -1;
+	top: 40px;
+	max-width: 65%;
+	min-width:65%;
+	height:auto;	
+}
+
+.content_container{
+	width: 65%;
+	background-color: white;
+	padding:50px;
+	margin: auto;
+	margin-top: 35%;
+	padding-top: 20px;
+	margin-bottom: 100px;
+}
+.content_container h1{
+	text-align: center;
+}
+.content_container ul{
+	/*figure out how to make a dash and no indent. */
+}
+
+}
+.important{
+	text-decoration: underline;
+
+}
+.text_chunk{
+	color: white;
+	margin:auto;
+	width:65%;
+}
+.text_chunk h1{
+	text-align: center;
+	margin-top: 40px;
+
+}
+.text_chunk p{
+	margin-top: 20px;
+	margin-bottom: 5px;
+
+}
+.text_chunk a{
+	color: white;
+}
+.content_container p{
+	color: white;
+}

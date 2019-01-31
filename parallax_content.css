@@ -1,0 +1,167 @@
+/*PARALLAX 1*/
+.tel{
+	position: absolute;
+	top: 85%;
+	left: 25%;
+	color: white;
+	z-index: 1;
+	background-color:white;	
+	border-radius: 20px;
+	width: 60px;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.tel:hover{
+	background-color: lightgray;
+}
+
+.whole #actionbar{
+	height: 400px;
+}
+.call247{
+	max-height: 175px;
+	background-color:lightblue;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.call247 img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#group1 h1, h2{
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+#group1 h1{
+	font-size: 56px;
+	position: absolute;
+	top: 15%;
+	left: 25%;
+	width: 35%;
+	color: white;
+	z-index: 1;
+}
+#group1 h2{
+	font-size: 26px;
+	position: absolute;
+	top: 65%;
+	left: 25%;
+	width: 300px;
+	color: white;
+	z-index: 1;
+}
+#group1 h3{
+	position: absolute;
+	top: 77.5%;
+	left: 25%;
+	width: 400px;
+	color: white;
+	z-index: 1;
+	font-size: 18px;
+	font-weight: lighter;
+
+}
+@media only screen and (max-width: 545px) {
+  #group1 h1,#group1 h2,#group1 h3,#group1 a{
+  	left: 5%;
+  }
+}
+/*END OF P1*/
+
+
+
+/*PARALLAX 2*/
+#whoweare{
+	border-top: 5px solid white;
+	height: 600px;
+	text-align: center;
+	background-color: rgb(231,240,241);
+
+}
+#whoweare h3{
+	margin-top: 100px;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+#whowearetext{
+	text-align: center;
+	margin:auto;
+	width: 350px;
+}
+#whowearetext p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+#actionbar div{
+	text-align: center;
+}
+#actionbar{
+	position: absolute;
+}
+#actionbar a{
+	position: relative;
+	top:170px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	max-width: 1px;
+}
+.apply_container{
+	text-align: center;
+	padding-top: 250px;
+	width: 400px;
+	height: 133px;
+	margin: auto;
+}
+.apply_box{
+	background-color: white;
+	width: 400px;
+	height: 133px;
+	padding-top: 45px;
+}
+.apply_box p{
+	text-transform: uppercase;
+
+	margin-bottom: 30px;
+}
+.apply_button{
+	color: white;
+	z-index: 1;
+	background-color: #333;	
+	border-radius: 20px;
+	width: 60px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	padding: 10px;}
+
+.aboutus{
+	max-height: 20px;
+	margin: auto;
+	color: white;
+	z-index: 1;
+	background-color: #333;	
+	border-radius: 20px;
+	width: 60px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+#whowearetext .aboutus a{
+	margin: 0;
+	color: white;
+	text-decoration: none;
+}
+.aboutus:hover, .apply_button:hover{
+	background-color: lightgray;
+}

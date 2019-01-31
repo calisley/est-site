@@ -1,0 +1,69 @@
+.container{
+	width: 100%;
+	margin: 0 auto;
+	background: #f9f9f9;
+	font-size: 24px;
+	padding-top: 0px;
+}
+.parallax{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height:1000px;
+}
+#group1{
+	background: url('res/teamphoto.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height:900px;
+}
+#group2{
+	background: url('res/aboutus.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: -300px 0px;
+	height: 600px;
+}
+#event_coverage{
+	background: url('res/event_coverage.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: -400px -100px;
+	height:400px;
+
+}
+#cpr_classes{
+	background: url('res/cpr_classes.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 0px -100px;
+
+	height:400px;
+}
+#active_bystander{
+	background: url('res/activebystander.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 300px;
+	height:400px;
+}
+#applynow{
+	margin-top: 410px;
+	background: url('res/applynow.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height:600px;
+}
+.third .parallax{
+	
+	border-left: 2.5px solid white;
+	border-right: 2.5px solid white;
+	border-top: 5px solid white;
+	border-bottom:5px solid white;
+	border-collapse: collapse;
+}

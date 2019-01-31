@@ -1,0 +1,168 @@
+/*layout styles*/
+.whole{
+  width: 100%;
+
+}
+.half{
+  width: 50%;
+  float: left;
+}
+.third{
+  width: 33.33%;
+  float: left;
+}
+.fourth{
+  width: 25%;
+}
+.fifth{
+  width: 50%;
+}
+.sixth{
+  width: 16.66%;
+}
+.eigth{
+  width: 12.5%;
+}
+.tenth{
+  width: 10%;
+}
+.twelth{
+  width: 8.33%;
+}
+/*End of layout*/
+/*header stuff*/
+
+/* Navbar container */
+.navbar {
+  background-color: #333;
+  font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 12px;
+  color: #fafafa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 12px; 
+  border: none;
+  outline: none;
+  color: #fafafa;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkblue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	margin-top: 42px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: darkblue;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.rightnav{
+	float: right;
+	font-size: 16px;
+	color: white;
+	height: 42px;
+	margin-right: 7.5%;
+	width:250px;
+}
+.rightnav div{
+	display: inline-block;
+}
+.socials img{
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	margin-bottom: -6px;
+}
+.socials a{
+	padding:0;
+	margin-top: 6px;
+}
+.socials{
+	height: 26.5px;
+	width: 30px;
+}
+nav{
+	margin-left: 12.5%;
+}
+.phonenum{
+	height: 10px;
+
+}
+/*END OF NAVBAR*/
+*{
+	margin:0;
+}
+
+.tel{
+	position: absolute;
+	top: 80%;
+	left: 25%;
+	color: white;
+	z-index: 1;
+	background-color:white;	
+	border-radius: 20px;
+	width: 60px;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.tel:hover{
+	background-color: lightgray;
+}
+#whoweare{
+	border-top: 15px solid white;
+	height: 400px;
+}

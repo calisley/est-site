@@ -1,0 +1,114 @@
+body{
+	background-color: rgb(38,47,52);
+}
+
+.content{
+	margin-top: 50px;
+}
+.calling_img img{
+	/*how do you not remember how to center a div*/
+	position: absolute;
+	z-index: -1;
+	top: 40px;
+	max-width: 65%;
+	min-width:65%;
+	height:auto;	
+}
+
+.content_container{
+	width: 65%;
+	background-color: white;
+	padding:50px;
+	margin: auto;
+	margin-top: 35%;
+	padding-top: 20px;
+	margin-bottom: 100px;
+}
+.content_container h1{
+	text-align: center;
+}
+.content_container ul{
+	/*figure out how to make a dash and no indent. */
+}
+.content_container p, ol{
+	margin-bottom: 20px;
+}
+
+.underline{
+	text-decoration: underline;
+
+}
+
+.text_chunk{
+	color: white;
+	margin:auto;
+	width:65%;
+}
+.text_chunk h1{
+	text-align: center;
+	margin-top: 40px;
+
+}
+.text_chunk p{
+	margin-top: 20px;
+	margin-bottom: 5px;
+
+}
+.text_chunk a{
+	color: white;
+}
+.the_team_container{
+	max-width:850px;
+	text-align:center;
+	margin: auto;
+	margin-bottom: 100px;
+	height: auto;
+	color: white;
+	overflow:auto;
+}
+.the_team_container .third{
+	min-width: 250px;
+	float: left;
+}
+.the_team_container .underline{
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 749px) {
+.the_team_container .third{
+ 	width: 50%;
+  }
+  .the_team_container .roster .third{
+width: 100% 
+}
+#hide_label{
+	display: none;
+}
+}
+@media only screen and (max-width: 499px) {
+.the_team_container .third, .the_team_container .half{
+ 	width: 100%;
+  }
+}
+
+.the_team_container img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin-bottom: 20px;
+}
+.the_team_container p{
+	margin-bottom: 20px;
+}
+.roster p{
+	margin-bottom: 5px;
+}
+.roster .underline{
+	margin-top: 10px;
+}
+#address{
+	width: 215px;
+}
+.contact_info{
+	width: 150px;
+}

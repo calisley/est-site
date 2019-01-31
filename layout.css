@@ -1,0 +1,36 @@
+/*layout styles*/
+.whole{
+  width: 100%;
+
+}
+.half{
+  width: 50%;
+  float: left;
+}
+.third{
+  width: 33.33%;
+  float: left;
+}
+.fourth{
+  width: 25%;
+}
+.fifth{
+  width: 50%;
+}
+.sixth{
+  width: 16.66%;
+}
+.eigth{
+  width: 12.5%;
+}
+.tenth{
+  width: 10%;
+}
+.twelth{
+  width: 8.33%;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+
+}
+/*End of layout*/

@@ -112,3 +112,10 @@ width: 100%
 .contact_info{
 	width: 150px;
 }
+#in{
+
+}
+#out{
+	display: none;
+}
+}

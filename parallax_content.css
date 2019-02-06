@@ -119,13 +119,13 @@
 .apply_container{
 	text-align: center;
 	padding-top: 250px;
-	width: 400px;
+	max-width: 400px;
 	height: 133px;
 	margin: auto;
 }
 .apply_box{
 	background-color: white;
-	width: 400px;
+	max-width: 400px;
 	height: 133px;
 	padding-top: 45px;
 }

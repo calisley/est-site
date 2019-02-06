@@ -10,7 +10,6 @@ html,body{
 	margin: 0 auto;
 	background: #f9f9f9;
 	font-size: 24px;
-	padding-top: 0px;
 }
 .parallax{
 	background-repeat: no-repeat;
@@ -67,7 +66,6 @@ html,body{
 	height:600px;
 }
 .third .parallax{
-	
 	border-left: 2.5px solid white;
 	border-right: 2.5px solid white;
 	border-top: 5px solid white;

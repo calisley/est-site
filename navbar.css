@@ -75,7 +75,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: darkblue;
+  background-color: rgb(228,226,228);;
 }
 
 /* Show the dropdown menu on hover */
@@ -170,7 +170,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .sidebar .dropdown-content a:hover {
-  background-color: darkblue;
+  background-color: rgb(241,243,244);
 }
 
 /* Show the dropdown menu on hover */

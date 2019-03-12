@@ -208,46 +208,6 @@
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .rightnav{
 	float: right;
 	font-size: 12px;
@@ -301,6 +261,15 @@ nav{
   .main{
     display: none;
   }
+
+}
+@media only screen and (min-width: 637px) {
+  .stick_footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
 #menu_button{
 
@@ -342,4 +311,5 @@ footer img{
   height: 30px;
   width: 30px;
 }
+
 

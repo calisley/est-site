@@ -166,3 +166,6 @@ nav{
 	border-top: 15px solid white;
 	height: 400px;
 }
+#bottom{
+  bottom: 0;
+}

@@ -199,8 +199,6 @@ width: 100%
 }
 }
 
-
-
 .the_team_container img{
 	width: 200px;
 	height: 200px;
@@ -208,12 +206,6 @@ width: 100%
 	margin-bottom: 20px;
 }
 .the_team_container p{
-	margin-bottom: 20px;
-}
-.home_page_container img{
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
 	margin-bottom: 20px;
 }
 .home_page_container p{

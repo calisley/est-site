@@ -1,0 +1,76 @@
+.home_page_container .images{
+	margin:auto;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+#when_to_call_truck_back{
+	background-image: url('res/when_to_call_truck.jpg');
+	background-size: 300px 200px;
+	border-radius: 100px;
+}
+#what_happens_truck_side{
+	background-image: url('res/truck_side.jpg');
+	background-size: 300px 200px;
+	border-radius: 100px;
+	background-position: -100px
+}
+#other_services_uniform{
+	background-image: url('res/other_services.jpg');
+	background-size: 300px 200px;
+	border-radius: 100px;
+}
+#confidentiality_bandw{
+	background-image: url('res/confidentiality.jpg');
+	background-size: 300px 200px;
+	border-radius: 100px;
+	background-position: -50px;
+}
+#history_with_wupd{
+	background-image: url('res/history.jpg');
+	background-size: 300px 200px;
+	border-radius: 100px;
+	background-position: -50px;
+}
+#event_coverage_facade{
+	background-image: url('res/event_coverage.jpg');
+	background-size: 600px 400px;
+	border-radius: 100px;
+	background-position: -100px -100px
+}
+#cpr_classes_trainees{
+	background-image: url('res/cpr_classes.jpg');
+	background-size: 400px 600px;
+	background-position: -75px -120px;
+	border-radius: 100px;
+}
+#active_bystander_clockstick{
+	background-image: url('res/activebystander.jpg');
+	background-size: 300px 200px;
+	border-radius: 100px;
+	background-position: -50px
+}
+/*techs corner stuff */
+
+#schedule_icon{
+	background-image: url('res/calendar_icon.png');
+	background-size: 200px 200px;
+	border-radius: 100px;
+	color: black;
+}
+#meeting_minutes_icon{
+	background-image: url('res/emt_patch_icon.png');
+	background-size: 200px 200px;
+	border-radius: 100px;
+	 
+} 
+#attendance_icon{
+	background-image: url('res/checkbox.png');
+	background-size: 200px 200px;
+	border-radius: 100px;
+	background-position: 5px;
+	
+}
+
+
+

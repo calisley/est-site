@@ -251,11 +251,52 @@ width: 100%
 	height: 400px;
 	text-align: center;
 }
-.article_container .half a{
+.article_container .half p{
 	position: relative;
-	top: 50%;
-	max-width: 5px;
+	top: 48%;
+	margin: auto;
+	max-width: 300px;
+
 }
 .first {
 	margin-top: 100px;
 }
+
+/*News Articles*/
+
+
+#emergency_cpr{
+	background-image: url('res/emergency_cpr.png');
+	background-size: 300px 200px;
+	background-position: 50px 100px;
+
+	background-repeat: no-repeat;
+}
+#choking_guide{
+	background-image: url('res/choking_guide.jpg');
+	background-size: 600px 800px;
+	background-position: -100px;
+}
+
+#stud_life_recognition{
+	background-image: url('res/stud_life_recognition.jpg');
+	background-size: 600px 400px;
+	background-position: -100px;
+}
+
+#qanda{
+	background-image: url('res/truck_side.jpg');
+	background-size: 600px 400px;
+	background-position: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+

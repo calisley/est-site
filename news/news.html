@@ -1,212 +1,226 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>News | WUEST </title>
- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">   
-  <link rel="stylesheet" type="text/css" href="../info_page.css">
-  <link rel="stylesheet" type="text/css" href="../navbar.css">
-  <link rel="stylesheet" type="text/css" href="../layout.css">
-  <link rel="stylesheet" type="text/css" href="../parallax.css">
-    <link rel="stylesheet" type="text/css" href="../parallax_content.css"> 
+    <title>News | WUEST </title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../info_page.css">
+    <link rel="stylesheet" type="text/css" href="../navbar.css">
+    <link rel="stylesheet" type="text/css" href="../layout.css">
+    <link rel="stylesheet" type="text/css" href="../parallax.css">
+    <link rel="stylesheet" type="text/css" href="../parallax_content.css">
     <script type="text/javascript" src='../menu.js'></script>
-<link rel="icon" href="../res/logo.ico"></li>
-   </head>
-   <body>
+    <link rel="icon" href="../res/logo.ico">
+  
+</head>
+
+<body>
     <div class="wholenav">
-      <div class="navbar">
-         <nav>
-          <div class='sidebar'>
-            <p onclick='openMenu()' id='menu_button'>☰</p>
-            <div class="sidebar_content">
-            <p onclick='closeMenu()' id='menu_close'>X</p>
-            <div class="status">
-              <div id="in">
-                <p> In Service</p>
+        <div class="navbar">
+            <nav>
+                <div class='sidebar'>
+                    <p onclick='openMenu()' id='menu_button'>☰</p>
+                    <div class="sidebar_content">
+                        <p onclick='closeMenu()' id='menu_close'>X</p>
+                        <div class="status">
+                            <div id="in">
+                                <p> In Service</p>
+                            </div>
+                            <div class="greenbtn"></div>
+                            <div id="out">
+                                <div class="redbttn"></div>
+                                <p> Out of Service</p>
+                            </div>
+                        </div>
+                        <a href="../index" style="width: 100%; font-size: 14px;">Home</a>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="../calling_est/calling_home">Calling EST</a>
+                            <div class="dropdown-content">
+                                <a href="../calling_est/when_to_call">When to Call</a>
+                                <a href="../calling_est/what_happens">What Happens When I Call?</a>
+                                <a href="../calling_est/other_services">Other Medical Services</a>
+                                <a href="../calling_est/confidentiality">Confidentiality</a>
+                                <a href="../calling_est/faq">FAQ</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="../about_us/about_home">About Us</a>
+                            <div class="dropdown-content">
+                                <a href="../about_us/history">History</a>
+                                <a href="../about_us/our_role">Our Role</a>
+                                <a href="../about_us/the_team">The Team</a>
+                                <a href="../about_us/contact">Contact</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="../services/services_home">Services</a>
+                            <div class="dropdown-content">
+                                <a href="../services/event_coverage">Event Coverage</a>
+                                <a href="../services/cpr_classes">CPR Classes</a>
+                                <a href="../services/active_bystander">Active Bystander Training</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="../apply/apply_home">Apply</a>
+                            <div class="dropdown-content">
+                                <a href="../apply/apply">Application Process</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="../news/news">News</a>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="../alumni/alumni_home">Alumni</a>
+                            <div class="dropdown-content">
+                                <a href="../alumni/donate">Donate</a>
+                                <a href="../alumni/reunion">Reunion</a>
+                                <a href="../alumni/networking">Networking</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="../techs_corner/techs_corner">Tech's Corner</a>
+                        </div>
+
+                    </div>
                 </div>
-               <div class="greenbtn"></div>
-               <div id="out">
-                <div class="redbttn"></div>
-                <p> Out of Service</p>
-              </div>
-            </div>
-            <a href="../index" style="width: 100%; font-size: 14px;">Home</a>
-            <div class="dropdown">
-               <a class="dropbtn" href="../calling_est/calling_home">Calling EST</a>
-               <div class="dropdown-content">
-                  <a href="../calling_est/when_to_call">When to Call</a>
-                  <a href="../calling_est/what_happens">What Happens When I Call?</a>
-                  <a href="../calling_est/other_services">Other Medical Services</a>
-                  <a href="../calling_est/confidentiality">Confidentiality</a>
-                  <a href="../calling_est/faq">FAQ</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../about_us/about_home">About Us</a>
-               <div class="dropdown-content">
-                  <a href="../about_us/history">History</a>
-                  <a href="../about_us/our_role">Our Role</a>
-                  <a href="../about_us/the_team">The Team</a>
-                  <a href="../about_us/contact">Contact</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../services/services_home">Services</a>
-               <div class="dropdown-content">
-                  <a href="../services/event_coverage">Event Coverage</a>
-                  <a href="../services/cpr_classes">CPR Classes</a>
-                  <a href="../services/active_bystander">Active Bystander Training</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../apply/apply_home">Apply</a>
-               <div class="dropdown-content">
-                  <a href="../apply/apply">Application Process</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../news/news">News</a>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../alumni/alumni_home">Alumni</a>
-               <div class="dropdown-content">
-                  <a href="../alumni/donate">Donate</a>
-                  <a href="../alumni/reunion">Reunion</a>
-                  <a href="../alumni/networking">Networking</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../techs_corner/techs_corner">Tech's Corner</a>
-            </div>
-            
-        </div>
-        </div>
-        <div class='main'>
-        <a href="../index" style="margin-left: 10%;">Home</a>
-            <div class="dropdown">
-               <a class="dropbtn" href="../calling_est/calling_home">Calling EST</a>
-               <div class="dropdown-content">
-                  <a href="../calling_est/when_to_call">When to Call</a>
-                  <a href="../calling_est/what_happens">What Happens When I Call?</a>
-                  <a href="../calling_est/other_services">Other Medical Services</a>
-                  <a href="../calling_est/confidentiality">Confidentiality</a>
-                  <a href="../calling_est/faq">FAQ</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../about_us/about_home">About Us</a>
-               <div class="dropdown-content">
-                  <a href="../about_us/history">History</a>
-                  <a href="../about_us/our_role">Our Role</a>
-                  <a href="../about_us/the_team">The Team</a>
-                  <a href="../about_us/contact">Contact</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../services/services_home">Services</a>
-               <div class="dropdown-content">
-                  <a href="../services/event_coverage">Event Coverage</a>
-                  <a href="../services/cpr_classes">CPR Classes</a>
-                  <a href="../services/active_bystander">Active Bystander Training</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../apply/apply_home">Apply</a>
-               <div class="dropdown-content">
-                  <a href="../apply/apply">Application Process</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../news/news">News</a>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../alumni/alumni_home">Alumni</a>
-               <div class="dropdown-content">
-                  <a href="../alumni/donate">Donate</a>
-                  <a href="../alumni/reunion">Reunion</a>
-                  <a href="../alumni/networking">Networking</a>
-               </div>
-            </div>
-            <div class="dropdown">
-               <a class="dropbtn" href="../techs_corner/techs_corner">Tech's Corner</a>
-            </div>
-            <div class="dropdown">
-            <div class="status">
-              <div id="in">
-                <p> In Service</p>
+                <div class='main'>
+                    <a href="../index" style="margin-left: 10%;">Home</a>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="../calling_est/calling_home">Calling EST</a>
+                        <div class="dropdown-content">
+                            <a href="../calling_est/when_to_call">When to Call</a>
+                            <a href="../calling_est/what_happens">What Happens When I Call?</a>
+                            <a href="../calling_est/other_services">Other Medical Services</a>
+                            <a href="../calling_est/confidentiality">Confidentiality</a>
+                            <a href="../calling_est/faq">FAQ</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="../about_us/about_home">About Us</a>
+                        <div class="dropdown-content">
+                            <a href="../about_us/history">History</a>
+                            <a href="../about_us/our_role">Our Role</a>
+                            <a href="../about_us/the_team">The Team</a>
+                            <a href="../about_us/contact">Contact</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="../services/services_home">Services</a>
+                        <div class="dropdown-content">
+                            <a href="../services/event_coverage">Event Coverage</a>
+                            <a href="../services/cpr_classes">CPR Classes</a>
+                            <a href="../services/active_bystander">Active Bystander Training</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="../apply/apply_home">Apply</a>
+                        <div class="dropdown-content">
+                            <a href="../apply/apply">Application Process</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="../news/news">News</a>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="../alumni/alumni_home">Alumni</a>
+                        <div class="dropdown-content">
+                            <a href="../alumni/donate">Donate</a>
+                            <a href="../alumni/reunion">Reunion</a>
+                            <a href="../alumni/networking">Networking</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="../techs_corner/techs_corner">Tech's Corner</a>
+                    </div>
+                    <div class="dropdown">
+                        <div class="status">
+                            <div id="in">
+                                <p> In Service</p>
+                            </div>
+                            <div class="greenbtn"></div>
+                            <div id="out">
+                                <div class="redbttn"></div>
+                                <p> Out of Service</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-               <div class="greenbtn"></div>
-               <div id="out">
-                <div class="redbttn"></div>
-                <p> Out of Service</p>
-              </div>
-             </div>
-          </div>
+            </nav>
+            <div class="rightnav">
+                <div class="phonenum">(314)-935-5555</div>
+                <div class="socials">
+                    <a href="https://www.facebook.com/WashUEST/"><img src="../res/fblogo.png" alt="like us on facebook!"></a>
+                </div>
+            </div>
         </div>
-         </nav>
-      <div class="rightnav">
-          <div class="phonenum">(314)-935-5555</div>
-              <div class="socials">
-              <a href="https://www.facebook.com/WashUEST/"><img src="../res/fblogo.png" alt="like us on facebook!"></a>
-          </div>
-         </div>
     </div>
-  </div>
-        <div class="whole">
-        	<div class="article first">
-        		<div class='article_container'>
-        			<div class="half">
-        				<a href="#link">In Case of Emergency: How to do CPR</a>
-        			</div>
-        			<div class="half news_img">
-        				<img src="news_img1.jpg">
-        			</div>
-        		</div>
-        	</div>
-        	<div class="article">
-        		<div class='article_container'>
-        			<div class="half">
-        				<a href="#link">In Case of Emergency: Choking</a>
-        			</div>
-        			<div class="half news_img">
-        				<img src="news_img1.jpg">
-        			</div>
-        		</div>
-        	</div>
-        	<div class="article">
-        		<div class='article_container'>
-        			<div class="half">
-        				<a href="#link">Student Life: EST recieves accreditation recognizing achievement in preparedness</a>
-        			</div>
-        			<div class="half news_img">
-        				<img src="news_img1.jpg">
-        			</div>
-        		</div>
-        	</div>
-        	<div class="article">
-        		<div class='article_container'>
-        			<div class="half">
-        				<a href="#link">Student Life: A Q&A with Washington University's Emergency Support Team</a>
-        			</div>
-        			<div class="half news_img">
-        				<img src="news_img1.jpg">
-        			</div>
-        		</div>
-        	</div>
+    <div class="whole">
+        <div class="article first">
+            <div class='article_container'>
+                <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html">
 
-        </div> 
-  </div>
-      <div class="whole">
+                    <div class="half">
+                        <p>In Case of Emergency: How to do CPR</p>
+                    </div>
+                    <div class="half news_img" id="emergency_cpr">
+                    </div>
+                </a>
+            </div>
+            </a>
+        </div>
+        <div class="article">
+            <div class='article_container'>
+                <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html">
+
+                    <div class="half">
+                        <p>In Case of Emergency: Choking</p>
+                    </div>
+                    <div class="half news_img" id="choking_guide">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="article">
+            <div class='article_container'>
+                <a href="http://www.studlife.com/news/2017/03/30/est-receives-accreditation-recognizing-achievement-in-preparedness/">
+
+                    <div class="half">
+                        <p>Student Life: EST recieves accreditation recognizing achievement in preparedness</p>
+                    </div>
+                    <div class="half news_img" id="stud_life_recognition">
+
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="article">
+            <div class='article_container'>
+                <a href="http://www.studlife.com/scene/2015/10/21/a-qa-with-washington-universitys-emergency-support-team/">
+                    <div class="half">
+                        <p>Student Life: A Q&A with Washington University's Emergency Support Team</p>
+                    </div>
+                    <div class="half news_img" id="qanda">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div class="whole">
         <footer>
-          <div class="footer_content">
-          <p>(314)-935-5555</p>
-          <p>1 Brookings Drive St. Louis, MO, 61035</p>
-          <a href="https://www.facebook.com/WashUEST/"><img src="../res/fblogo2.png" /></a>
-        </div>
-          <div class="sign">
-          <p> Website created and maintained by Washington University Emergency Support Team 2019</p>
+            <div class="footer_content">
+                <p>(314)-935-5555</p>
+                <p>1 Brookings Drive St. Louis, MO, 61035</p>
+                <a href="https://www.facebook.com/WashUEST/"><img src="../res/fblogo2.png" /></a>
+            </div>
+            <div class="sign">
+                <p> Website created and maintained by Washington University Emergency Support Team 2019</p>
 
-        </div>
+            </div>
         </footer>
 
-  </body>
+</body>
 </html>

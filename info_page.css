@@ -230,10 +230,10 @@ width: 100%
 	width: 150px;
 }
 /*SERVICE TAGS*/
-#in{
-
+.in{
+	display: none;
 }
-#out{
+.out{
 	display: none;
 }
 .article{
@@ -288,6 +288,7 @@ width: 100%
 	background-image: url('res/truck_side.jpg');
 	background-size: 600px 400px;
 	background-position: -100px;
+	overflow: hi;
 }
 
 

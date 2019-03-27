@@ -11,7 +11,7 @@
     <script type="text/javascript" src='../menu.js'></script>
 <link rel="icon" href="../res/logo.ico"></li>
    </head>
-   <body>
+   <body onload="checkService()">
     <div class="wholenav">
       <div class="navbar">
          <nav>
@@ -20,11 +20,11 @@
             <div class="sidebar_content">
             <p onclick='closeMenu()' id='menu_close'>X</p>
             <div class="status">
-              <div id="in">
+              <div class="in">
                 <p> In Service</p>
                 </div>
                <div class="greenbtn"></div>
-               <div id="out">
+               <div class="out">
                 <div class="redbttn"></div>
                 <p> Out of Service</p>
               </div>
@@ -131,11 +131,11 @@
             </div>
             <div class="dropdown">
             <div class="status">
-              <div id="in">
+              <div class="in">
                 <p> In Service</p>
                 </div>
                <div class="greenbtn"></div>
-               <div id="out">
+               <div class="out">
                 <div class="redbttn"></div>
                 <p> Out of Service</p>
               </div>
@@ -168,7 +168,7 @@
 				<p>
 				All members of EST are certified in CPR, and all members are certified or in the progress of becoming certified basic life support emergency medical technicians (EMT-B). At least two of the three medics are Senior Medics, who in addition to the training required for an EMT-B license receive months of internal training that hones their abilities to provide a high level of care to the Danforth campus patient population. As a result, our duty crews are adept in providing first responder care to any medical emergency, e.g. cardiac, respiratory, intoxication, drug abuse, orthopedic, diabetic, severe bleeding, head injury, and any major trauma.</p>
 				
-				<p><a href="../calling_est/when_to_call.html">Click here </a>for information regarding when to call EST. When in doubt regarding if EST is necessary, calling EST is always safer.  </p>
+				<p><a href="../calling_est/when_to_call">Click here </a>for information regarding when to call EST. When in doubt regarding if EST is necessary, calling EST is always safer.  </p>
 			</div>
 			<div class="half">
 				<img src="../res/our_role.jpg" id="our_role_img" width="400px" height="700px" class="half_img" style="margin-left: 50px; margin-top: 35px; margin-bottom: 200px;">

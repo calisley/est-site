@@ -48,7 +48,24 @@
 	background-image: url('res/activebystander.jpg');
 	background-size: 300px 200px;
 	border-radius: 100px;
+	background-position: -50px;
+}
+#donate_menu{
+	background-image: url('res/donate_menu.jpg');
+	background-size: 300px 200px;
+	border-radius: 100px;
+}
+#reunion_menu{
+	background-image: url('res/reunion_menu.jpg');
+	background-size: 300px 200px;
+	border-radius: 100px;
 	background-position: -50px
+}
+#networking_menu{
+	background-image: url('res/networking_menu.jpg');
+	background-size: 200px 200px;
+	border-radius: 100px;
+	background-position: 0px;
 }
 /*techs corner stuff */
 

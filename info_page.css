@@ -18,7 +18,7 @@ body{
 
 .content_container{
 	position: relative;
-	width: 700px;
+	width: 850px;
 	background-color: white;
 	padding:20px 50px;
 	margin: auto;
@@ -290,14 +290,5 @@ width: 100%
 	background-position: -100px;
 	overflow: hi;
 }
-
-
-
-
-
-
-
-
-
 
 

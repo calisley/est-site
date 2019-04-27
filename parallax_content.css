@@ -67,9 +67,21 @@
 	font-weight: lighter;
 
 }
+.text_box{
+	position: absolute;
+	left: 20%;
+	top: 95px;
+	background-color: #333333;
+	width: 600px;
+	height: 550px;
+	opacity: .5;
+}
 @media only screen and (max-width: 545px) {
   #group1 h1,#group1 h2,#group1 h3,#group1 a{
   	left: 5%;
+  }
+  .text_box{
+  	left: 2%;
   }
   #group1 h1{
   	font-size: 48px;
@@ -168,3 +180,4 @@
 .aboutus:hover, .apply_button:hover{
 	background-color: lightgray;
 }
+

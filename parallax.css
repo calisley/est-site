@@ -35,9 +35,9 @@ html,body{
 #event_coverage{
 	background: url('res/event_coverage.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 700px;
 	background-attachment: fixed;
-	background-position: -400px -100px;
+	background-position: -125px -100px;
 	height:400px;
 
 }
